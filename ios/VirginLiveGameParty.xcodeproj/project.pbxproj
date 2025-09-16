@@ -7,11 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		02605E42D1A64CF49961D955 /* Manrope-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2A10921DFA1D4A088382419E /* Manrope-SemiBold.ttf */; };
 		0C80B921A6F3F58F76C31292 /* libPods-VirginLiveGameParty.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DCACB8F33CDC322A6C60F78 /* libPods-VirginLiveGameParty.a */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
+		6D5B503C6872430BAA4CB1EB /* Manrope-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 150792F0D09043FCA7CDB000 /* Manrope-Medium.ttf */; };
 		761780ED2CA45674006654EE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 761780EC2CA45674006654EE /* AppDelegate.swift */; };
+		7FE06EBF03244F6CBD7B8445 /* Manrope-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2DCD6B79EC7C4095AECCAAA6 /* Manrope-Regular.ttf */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		83B37E712D6449E19F2D992E /* Manrope-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 80C99509DC6A4F8FAF3AD0DF /* Manrope-ExtraBold.ttf */; };
 		BD7CE182AE68676B030CFC40 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB81A68108700A75B9A /* PrivacyInfo.xcprivacy */; };
+		D1505A7C2E7461B6007C21E1 /* virgingmamelody.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D1505A7B2E7461B6007C21E1 /* virgingmamelody.mp3 */; };
+		D1505A7E2E7461FA007C21E1 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D1505A7D2E7461FA007C21E1 /* AudioToolbox.framework */; };
+		D1505A802E746208007C21E1 /* AVKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D1505A7F2E746208007C21E1 /* AVKit.framework */; };
+		D1505A822E74667A007C21E1 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D1505A812E74667A007C21E1 /* AVFoundation.framework */; };
+		E98A488FEDE0411D896FF3DA /* Manrope-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 41D68348396A4C2B9F7F3C0E /* Manrope-Bold.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,11 +28,20 @@
 		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = VirginLiveGameParty/Images.xcassets; sourceTree = "<group>"; };
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = VirginLiveGameParty/Info.plist; sourceTree = "<group>"; };
 		13B07FB81A68108700A75B9A /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = PrivacyInfo.xcprivacy; path = VirginLiveGameParty/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		150792F0D09043FCA7CDB000 /* Manrope-Medium.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Manrope-Medium.ttf"; path = "../assets/fonts/Manrope-Medium.ttf"; sourceTree = "<group>"; };
+		2A10921DFA1D4A088382419E /* Manrope-SemiBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Manrope-SemiBold.ttf"; path = "../assets/fonts/Manrope-SemiBold.ttf"; sourceTree = "<group>"; };
+		2DCD6B79EC7C4095AECCAAA6 /* Manrope-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Manrope-Regular.ttf"; path = "../assets/fonts/Manrope-Regular.ttf"; sourceTree = "<group>"; };
 		3B4392A12AC88292D35C810B /* Pods-VirginLiveGameParty.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VirginLiveGameParty.debug.xcconfig"; path = "Target Support Files/Pods-VirginLiveGameParty/Pods-VirginLiveGameParty.debug.xcconfig"; sourceTree = "<group>"; };
+		41D68348396A4C2B9F7F3C0E /* Manrope-Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Manrope-Bold.ttf"; path = "../assets/fonts/Manrope-Bold.ttf"; sourceTree = "<group>"; };
 		5709B34CF0A7D63546082F79 /* Pods-VirginLiveGameParty.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VirginLiveGameParty.release.xcconfig"; path = "Target Support Files/Pods-VirginLiveGameParty/Pods-VirginLiveGameParty.release.xcconfig"; sourceTree = "<group>"; };
 		5DCACB8F33CDC322A6C60F78 /* libPods-VirginLiveGameParty.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-VirginLiveGameParty.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		761780EC2CA45674006654EE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = VirginLiveGameParty/AppDelegate.swift; sourceTree = "<group>"; };
+		80C99509DC6A4F8FAF3AD0DF /* Manrope-ExtraBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Manrope-ExtraBold.ttf"; path = "../assets/fonts/Manrope-ExtraBold.ttf"; sourceTree = "<group>"; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = VirginLiveGameParty/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D1505A7B2E7461B6007C21E1 /* virgingmamelody.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = virgingmamelody.mp3; sourceTree = "<group>"; };
+		D1505A7D2E7461FA007C21E1 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		D1505A7F2E746208007C21E1 /* AVKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVKit.framework; path = System/Library/Frameworks/AVKit.framework; sourceTree = SDKROOT; };
+		D1505A812E74667A007C21E1 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
@@ -32,6 +50,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D1505A822E74667A007C21E1 /* AVFoundation.framework in Frameworks */,
+				D1505A802E746208007C21E1 /* AVKit.framework in Frameworks */,
+				D1505A7E2E7461FA007C21E1 /* AudioToolbox.framework in Frameworks */,
 				0C80B921A6F3F58F76C31292 /* libPods-VirginLiveGameParty.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -54,10 +75,26 @@
 		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				D1505A812E74667A007C21E1 /* AVFoundation.framework */,
+				D1505A7F2E746208007C21E1 /* AVKit.framework */,
+				D1505A7D2E7461FA007C21E1 /* AudioToolbox.framework */,
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
 				5DCACB8F33CDC322A6C60F78 /* libPods-VirginLiveGameParty.a */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		520519A51EE745D0A4B17FC7 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				D1505A7B2E7461B6007C21E1 /* virgingmamelody.mp3 */,
+				41D68348396A4C2B9F7F3C0E /* Manrope-Bold.ttf */,
+				80C99509DC6A4F8FAF3AD0DF /* Manrope-ExtraBold.ttf */,
+				150792F0D09043FCA7CDB000 /* Manrope-Medium.ttf */,
+				2DCD6B79EC7C4095AECCAAA6 /* Manrope-Regular.ttf */,
+				2A10921DFA1D4A088382419E /* Manrope-SemiBold.ttf */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
@@ -75,6 +112,7 @@
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				BBD78D7AC51CEA395F1C20DB /* Pods */,
+				520519A51EE745D0A4B17FC7 /* Resources */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -161,6 +199,12 @@
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 				BD7CE182AE68676B030CFC40 /* PrivacyInfo.xcprivacy in Resources */,
+				E98A488FEDE0411D896FF3DA /* Manrope-Bold.ttf in Resources */,
+				83B37E712D6449E19F2D992E /* Manrope-ExtraBold.ttf in Resources */,
+				D1505A7C2E7461B6007C21E1 /* virgingmamelody.mp3 in Resources */,
+				6D5B503C6872430BAA4CB1EB /* Manrope-Medium.ttf in Resources */,
+				7FE06EBF03244F6CBD7B8445 /* Manrope-Regular.ttf in Resources */,
+				02605E42D1A64CF49961D955 /* Manrope-SemiBold.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
