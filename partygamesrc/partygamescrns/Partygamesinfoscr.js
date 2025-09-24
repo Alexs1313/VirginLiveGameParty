@@ -1,5 +1,6 @@
 import {
   Image,
+  Linking,
   Platform,
   Share,
   StyleSheet,
@@ -92,6 +93,11 @@ The app has three modes: Truth, Action, and Mix.Complete tasks, laugh together, 
             <TouchableOpacity
               style={styles.partygamestartbtn}
               activeOpacity={0.6}
+              onPress={() =>
+                Linking.openURL(
+                  'https://apps.apple.com/us/app/virgin-live-game-party/id6752958948',
+                )
+              }
             >
               <Image source={require('../../assets/icons/virgingamestr.png')} />
               <Text style={styles.partygamewlcbtntxt}>Rate app</Text>
