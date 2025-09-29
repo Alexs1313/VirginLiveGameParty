@@ -60,6 +60,7 @@ The app has three modes: Truth, Action, and Mix.Complete tasks, laugh together, 
           {Platform.OS === 'ios' ? (
             <Image
               source={require('../../assets/images/virgingameinflogo.png')}
+              style={{ width: 97, height: 100, borderRadius: 12 }}
             />
           ) : (
             <Image

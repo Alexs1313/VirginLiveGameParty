@@ -178,8 +178,8 @@ hero of the party is!`}
           <View style={styles.partygamelogowrp}>
             {Platform.OS === 'ios' ? (
               <Image
-                source={require('../../assets/images/virgingamelgoinf.png')}
-                style={{ width: 44, height: 44 }}
+                source={require('../../assets/images/virgingameinflogo.png')}
+                style={{ width: 44, height: 44, borderRadius: 12 }}
               />
             ) : (
               <Image
